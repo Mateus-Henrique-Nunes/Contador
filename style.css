@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0%;
+}
+
+body{
+    overflow-x:hidden ;
+    background: rgba(84, 62, 62, 0.5);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background:  blueviolet;
+    position: relative;
+}
+
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background: linear-gradient(to right, rgb(118, 59, 172), rgba(53, 51, 51, 0.722));
+    border: 2px solid white;
+    color: white;
+    padding: 50px;
+    margin-bottom: 5%;
+    word-break: break-all;
+   
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3{
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    padding: 1px;
+    background-color: rgba(62, 2, 118, 0.903);
+    color: white;
+   
+}
+/*Tirar as a setas de dentro do input*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.button{
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+.button2{
+    margin-top: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(63, 39, 86, 0.608);
+    color: black;
+    transition: 0.3s;
+}

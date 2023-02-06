@@ -99,3 +99,14 @@ button:hover{
     color: black;
     transition: 0.3s;
 }
+
+@media screen and (max-width:500px) {
+    .container{
+      display: flex;
+      width: 90vw;
+    }
+    input{
+      width: 50%;
+    }
+      
+  }
